@@ -1,62 +1,73 @@
+<p align="center">
+  <img src="./assets/header.svg" alt="OhYu — Developer and Designer. Code, design and a little curiosity." width="100%" />
+</p>
 
-<div align="center">
-  <br>
-  <img src="https://github.com/euYuzi.png" width="130px" style="border-radius: 5px; border: 2px solid #fff; filter: grayscale(1); box-shadow: 5px 5px 0px #fff;" />
-
-  <br><br>
-
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=800&size=32&center=true&vCenter=true&width=800&height=70&duration=4000&lines=INIT+euYuzi.sys;Developer+&+Designer;Status:+Building+Ideas...&color=FFFFFF" alt="Typing SVG" />
-  </h1>
-
-  <p><code>"Transforming ideas into innovative digital solutions."</code></p>
-</div>
-
----
-
-### Root/System_Information
-> **User:** euYuzi  
-> **Role:** Developer & Designer (IT - Osasco/SP  
-> **Motto:** I work in IT. I help those in need with straightforward, modern solutions. Currently studying PowerShell/JS to build bots, mods, and systems that actually work. Performance + design. I love GOD 🙏✝️
-
----
-
-### Technology_Stack
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white&border=white" />
-  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white&border=white" />
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white&border=white" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=white&border=white" />
-  <img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=c-sharp&logoColor=white&border=white" />
-</div>
-
----
-
-### Project_Library
-> [!] Right now, my library is pretty weak. Sometimes I give up on projects or just delete everything out of frustration 😅
-> If I drop something cool in the future, make sure to check it out!
+<p align="center">
+  <a href="https://ohyusemri.xyz"><strong>Website ↗</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/llohyull"><strong>GitHub ↗</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://discord.com/users/1429982972081209525"><strong>Discord ↗</strong></a>
+</p>
 
 <br>
 
-<div align="center">
-  <a href="https://github.com/euYuzi?tab=repositories">
-    <img src="https://img.shields.io/badge/[_ACESSAR_REPOSITÓRIOS_]-000000?style=for-the-badge&logo=github&logoColor=white" height="45">
-  </a>
-</div>
+## About me.
 
----
+I'm **OhYu**, a developer and designer from Brazil. I like turning ideas into interfaces, experimenting with code and making the things I build feel good to use.
 
-### Activity_Diagnosis
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=euYuzi&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=c0c0c0&icon_color=ffffff&bg_color=00000000" height="150" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=euYuzi&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=c0c0c0&bg_color=00000000" height="150" alt="Langs" />
-</div>
+My interests include web development, desktop launchers, game-related tools and interface design. I enjoy clean layouts, dark themes and subtle animation — small details that make a project feel personal.
+
+I'm still learning, refining my work and exploring new ways to bring ideas to life.
 
 <br>
 
----
+## My toolkit.
 
-<div align="center">
-  <br>
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=flat-square&color=00FF00" />
-</div>
+<p>
+  <img src="./assets/toolkit.svg" alt="HTML, CSS, JavaScript, Node.js and C#" width="650" />
+</p>
+
+| Area | What I enjoy working on |
+| :--- | :--- |
+| **Web development** | Personal websites, interactive pages and responsive interfaces. |
+| **Interface design** | Dark themes, typography, visual details and lightweight motion. |
+| **Applications** | Launchers, tools and interfaces that connect useful features. |
+| **Experimentation** | Trying ideas, learning from problems and improving existing projects. |
+
+<br>
+
+## Work.
+
+My repositories are where I share code, experiments and projects as they develop.
+
+**[Explore my repositories →](https://github.com/llohyull?tab=repositories)**
+
+For a visual overview, visit **[my portfolio](https://ohyusemri.xyz)**. It brings my public GitHub projects together in one place, with descriptions and links to the source code.
+
+<br>
+
+## What I'm exploring.
+
+- Building more polished and responsive interfaces.
+- Improving my JavaScript and Node.js skills.
+- Connecting design, animation and practical functionality.
+- Making projects easier to navigate and use.
+
+<br>
+
+## Let's connect.
+
+Have a question about a project, an idea to share or something interesting to build? Find me here:
+
+| | Link |
+| :--- | :--- |
+| **Website** | [ohyusemri.xyz](https://ohyusemri.xyz) |
+| **GitHub** | [@llohyull](https://github.com/llohyull) |
+| **Discord** | [Message me on Discord](https://discord.com/users/1429982972081209525) |
+
+<br>
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="Always learning. Always building." width="100%" />
+</p>
