@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://ohyusemri.xyz"><strong>Website ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/llohyull"><strong>GitHub ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://discord.com/users/1429982972081209525"><strong>Discord ↗</strong></a>
+  <a href="https://ohyusemri.xyz/"><img src="./assets/website.svg" alt="Website" width="128" height="48" /></a>
+  &nbsp;
+  <a href="https://github.com/llohyull"><img src="./assets/github.svg" alt="GitHub" width="128" height="48" /></a>
+  &nbsp;
+  <a href="https://discord.com/users/1429982972081209525"><img src="./assets/discord.svg" alt="Discord" width="128" height="48" /></a>
 </p>
 
 <br>
