@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ohyusemri.xyz"><strong>Website ↗</strong></a>
+  <a href="https://llohyull.github.io/llohyull/"><strong>Website ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/llohyull"><strong>GitHub ↗</strong></a>
   &nbsp; · &nbsp;
@@ -43,7 +43,7 @@ My repositories are where I share code, experiments and projects as they develop
 
 **[Explore my repositories →](https://github.com/llohyull?tab=repositories)**
 
-For a visual overview, visit **[my portfolio](https://ohyusemri.xyz)**. It brings my public GitHub projects together in one place, with descriptions and links to the source code.
+For a visual overview, visit **[my portfolio](https://llohyull.github.io/llohyull/)**. It brings my public GitHub projects together in one place, with descriptions and links to the source code.
 
 <br>
 
@@ -62,7 +62,7 @@ Have a question about a project, an idea to share or something interesting to bu
 
 | | Link |
 | :--- | :--- |
-| **Website** | [ohyusemri.xyz](https://ohyusemri.xyz) |
+| **Website** | [ohyusemri.xyz](https://llohyull.github.io/llohyull/) |
 | **GitHub** | [@llohyull](https://github.com/llohyull) |
 | **Discord** | [Message me on Discord](https://discord.com/users/1429982972081209525) |
 
