@@ -1,73 +1,60 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="OhYu — Developer and Designer. Code, design and a little curiosity." width="100%" />
-</p>
+# OhYu — profile and portfolio
 
-<p align="center">
-  <a href="https://ohyusemri.xyz/"><img src="./assets/website.svg" alt="Website" width="128" height="48" /></a>
-  &nbsp;
-  <a href="https://github.com/llohyull"><img src="./assets/github.svg" alt="GitHub" width="128" height="48" /></a>
-  &nbsp;
-  <a href="https://discord.com/users/1429982972081209525"><img src="./assets/discord.svg" alt="Discord" width="128" height="48" /></a>
-</p>
+Complete static site, adapted from the supplied imfunniee/gitfolio layout: profile on the left, circular avatar with transparent feathered edges, standalone clickable social icons, Work and Forks cards on the right, responsive mobile layout. Interface text is in English. Repository descriptions are shown in the author's original language.
 
-<br>
+## Shard Cloud — ohyusemri.xyz
 
-## About me.
+1. Envie o ZIP para sua aplicação de site na Shard Cloud. `package.json`, `server.js` e `index.html` precisam ficar na raiz, junto de `assets/`.
+2. Selecione ambiente Node.js 20 ou superior.
+3. Comando de inicialização: `npm start`. Arquivo principal, se solicitado: `server.js`.
+4. Não há build nem dependências externas. Se o painel exigir instalação, `npm install` é suficiente.
+5. O servidor escuta em `0.0.0.0` e usa a variável `PORT` definida pela plataforma; quando ela não existe, usa a porta `80`. Se o painel pedir a porta HTTP, configure o mesmo valor.
+6. Vincule `ohyusemri.xyz` à aplicação na configuração de domínio da hospedagem. Caso ainda não esteja vinculado, crie no seu provedor DNS exatamente os registros exibidos pelo painel. Não há um IP universal neste pacote. Adicione `www.ohyusemri.xyz` separadamente somente se quiser usar www.
+7. Verifique o HTTPS/SSL no painel. O servidor Node recebe HTTP internamente; o HTTPS público fica a cargo da hospedagem.
 
-I'm **OhYu**, a developer and designer from Brazil. I like turning ideas into interfaces, experimenting with code and making the things I build feel good to use.
+Teste a aplicação em `/health`: deve responder `{"status":"ok","site":"ohyusemri.xyz"}`. Se a resposta for a página da plataforma dizendo "Site not found", verifique o domínio e o vínculo com a aplicação.
 
-My interests include web development, desktop launchers, game-related tools and interface design. I enjoy clean layouts, dark themes and subtle animation — small details that make a project feel personal.
+As configurações de domínio, DNS e SSL não são alteradas pelo ZIP. O pacote foi preparado e testado localmente; ainda precisa ser enviado à sua conta.
 
-I'm still learning, refining my work and exploring new ways to bring ideas to life.
+### Executar localmente
 
-<br>
+No PowerShell, dentro da pasta extraída:
 
-## My toolkit.
+```powershell
+$env:PORT = "3000"
+npm start
+```
 
-<p>
-  <img src="./assets/toolkit.svg" alt="HTML, CSS, JavaScript, Node.js and C#" width="650" />
-</p>
+Abra http://localhost:3000. Você também pode abrir index.html para conferir o visual. A foto e os projetos precisam de internet. O layout, os ícones, as fontes e o fundo estão no pacote.
 
-| Area | What I enjoy working on |
-| :--- | :--- |
-| **Web development** | Personal websites, interactive pages and responsive interfaces. |
-| **Interface design** | Dark themes, typography, visual details and lightweight motion. |
-| **Applications** | Launchers, tools and interfaces that connect useful features. |
-| **Experimentation** | Trying ideas, learning from problems and improving existing projects. |
+Documentação de recursos da plataforma: https://shardcloud.app/pt-br/resources/applications
 
-<br>
+## Links
 
-## Work.
+- GitHub: https://github.com/llohyull
+- Discord: https://discord.com/users/1429982972081209525
 
-My repositories are where I share code, experiments and projects as they develop.
+The avatar loads from your GitHub profile automatically. If loading fails, initials appear.
 
-**[Explore my repositories →](https://github.com/llohyull?tab=repositories)**
+## Projects
 
-For a visual overview, visit **[my portfolio](https://ohyusemri.xyz)**. It brings my public GitHub projects together in one place, with descriptions and links to the source code.
+Public repositories are loaded from GitHub on opening, refreshed every five minutes while the tab is visible, and can also be refreshed manually. This is periodic updating, not a realtime event stream. Work and forks have separate sections. The script supports pagination up to 1,000 repositories. Cards open an accessible details dialog; its button opens the actual project on GitHub. Ctrl/Cmd-click opens the repository directly. Escape closes the dialog.
 
-<br>
+The last successful response is cached in the visitor's browser. If GitHub is unavailable or its public rate limit is reached, an error is displayed and cached cards remain visible. No sample projects or invented statistics are shown.
 
-## What I'm exploring.
+## Background
 
-- Building more polished and responsive interfaces.
-- Improving my JavaScript and Node.js skills.
-- Connecting design, animation and practical functionality.
-- Making projects easier to navigate and use.
+The attachment named `video_alta_qualidade(2).gif` actually contains a single-frame PNG. Its grid image is included as `assets/background.png`, with a looping CSS pan/zoom and black gradients. This does not recreate missing frames from the original animation. To use the exact animated GIF, place it in `assets/background.gif` and change the URL in `.backdrop` in index.css. You can also remove `drift` from its animation rule to keep only the GIF's own motion.
 
-<br>
+Reduced-motion system settings disable the decorative movement. Background layers do not intercept clicks. All project text is inserted as text, not interpreted as HTML.
 
-## Let's connect.
+## Files
 
-Have a question about a project, an idea to share or something interesting to build? Find me here:
+- index.html: profile, content sections and project dialog.
+- index.css: layout, fonts, dark gradient, feathered avatar transparency and effects.
+- app.js: repository loading, caching and dialog.
+- assets/: supplied background and fonts/icons from the supplied template archive.
 
-| | Link |
-| :--- | :--- |
-| **Website** | [ohyusemri.xyz](https://ohyusemri.xyz) |
-| **GitHub** | [@llohyull](https://github.com/llohyull) |
-| **Discord** | [Message me on Discord](https://discord.com/users/1429982972081209525) |
+The old template owner's projects, demo blog, contact details and social links were removed. No global visitor counter is included in this static redesign. No website was deployed or GitHub repository modified.
 
-<br>
-
-<p align="center">
-  <img src="./assets/footer.svg" alt="Always learning. Always building." width="100%" />
-</p>
+Design reference: supplied imfunniee/gitfolio HTML/CSS. Font Awesome brand icons and Poppins/Questrial font files were taken from the supplied resource archive; retain applicable third-party license notices when distributing.
